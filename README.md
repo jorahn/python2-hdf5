@@ -1,8 +1,8 @@
-# Dockerfile for image `rcsa/python3-hdf5`
+# Dockerfile for image `rcsa/python2-hdf5`
 
 ## Ingredients:
 
-- Python 3.4 (linked to update with official image)
+- Python 2.7 (linked to update with official image)
 - HDF5 (quite cumbersome to install from source)
 - PyTables (requires HDF5 installed)
 - NumPy (compiling takes some time)
@@ -12,7 +12,7 @@ All taken care of...
 
 ## Build on top of this image with a Dockerfile like this:
 
-    FROM rcsa/python3-hfd5:latest
+    FROM rcsa/python2-hfd5:latest
     ENV PYTHONUNBUFFERED 1
     RUN mkdir /code
     WORKDIR /code
