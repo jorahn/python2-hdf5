@@ -21,4 +21,3 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN pip install numpy
 RUN pip install pandas
 RUN pip install tables
- 
