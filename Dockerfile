@@ -13,7 +13,7 @@ RUN cd ; cd hdf5-setup ; ./configure --prefix=/usr/local/
 RUN cd ; cd hdf5-setup ; make && make install
 
 # cleanup
-RUN cd ; rm -rf hdf5-setup
+RUN cd ; rm -rf hdf5*
 RUN apt-get -yq autoremove
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
