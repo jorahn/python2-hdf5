@@ -1,5 +1,7 @@
 # Dockerfile for image `rcsa/python2-hdf5`
 
+## Update: I recommend using [feather](https://github.com/wesm/feather) for persisting Pandas DataFrames instead of HDF5.
+
 ## Ingredients:
 
 - Python 2.7 (linked to update with official image)
