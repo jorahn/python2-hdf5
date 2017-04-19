@@ -14,7 +14,7 @@ All taken care of...
 
 ## Build on top of this image with a Dockerfile like this:
 
-    FROM rcsa/python2-hfd5:latest
+    FROM rcsa/python2-hdf5:latest
     ENV PYTHONUNBUFFERED 1
     RUN mkdir /code
     WORKDIR /code
